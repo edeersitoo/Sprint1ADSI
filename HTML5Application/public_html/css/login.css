@@ -56,4 +56,8 @@ a:visited{
     background-color: white;
     color: #13C1AC;
 }
+#pie{
+    font: bold 15px arial, sans-serif;
+    color: white;
+}
 

@@ -19,7 +19,7 @@
     text-align: center;
 }
 /*iniciar sesión quedan arriba a la derecha*/
-#cabeceralogo div div{
+#cabeceralogo div div h3{
     position: absolute;
     right: 0;
     top: 0;
@@ -134,19 +134,88 @@ article time {
     box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
     border-radius: 5px;
 }
-.enlace{
-    display: inline-block;
+/*para subir producto una vez logueado*/
+#cabeceralogo div div h3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#cabeceralogo div div h3 a {
+    display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
+    margin-bottom: 10px; /* Espacio entre los enlaces */
+    font: bold 16px Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #13c1c3;
+    background-color: #13C1AC;
+    border-radius: 5px;
+    border-color: white;
     padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border: 2px solid #13c1c3;
-    color: #ffffff; /* Color blanco para el texto */
-    background-color: #13C1AC;
-    border-radius: 5px; 
-    border-color: white;
+    margin-right: 5px;
+    margin-top: 5px;
 }
-.enlace:hover{
+
+#cabeceralogo div div h3 a:hover {
     background-color: white;
     color: #13C1AC;
 }
+
+
+/*Esto es para el cuadro de búsqueda*/
+.formulario-busqueda {
+    display: flex;
+    flex-direction: row; /* Alinear los elementos en una fila */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Ajusta este valor según tus necesidades */
+    width: 96%;
+    height: 40px;
+    padding: 0% 2%;
+    background-color: #FFFFFF;
+    border-bottom: 5px solid #13C1AC;
+    margin-top: 5px;
+}
+
+.formulario-busqueda label {
+    font-size: 20px; /* Tamaño de la fuente del label */
+    font: bold 20px Arial,sans-serif;
+    margin-right: 10px; /* Agregar un margen entre el label y el campo de texto */
+}
+
+.formulario-busqueda input[type="text"] {
+    font-size: 18px; /* Tamaño de la fuente del campo de texto */
+    font-weight: bold; /* Negrita */
+    margin-right: 10px; /* Agregar un margen entre el campo de texto y el botón */
+}
+
+.formulario-busqueda input[type="submit"] {
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    font-weight: bold; /* Negrita */
+}
+#pie{
+    font: bold 15px arial, sans-serif;
+    color: black;
+}
+
+/*logo y titulo wallpop*/
+
+#contenedorLogo {
+    display: flex;
+    align-items: center;
+    max-width: 300px; /* ajusta según sea necesario */
+    margin: 0 auto; /* centra el contenedor */
+    padding: 10px; /* agrega algún espacio alrededor si lo deseas */
+}
+
+/* Estilo para la imagen del logo */
+#logo {
+    margin-right: 10px;
+    max-height: 50px; /* ajusta según sea necesario */
+}
+
+/* Estilo para el título h1 */
+h1 {
+    margin: 0; /* elimina el margen predeterminado del h1 */
+}
+/*para el boton de subir productos cuando ya está logueado*/
