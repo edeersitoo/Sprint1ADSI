@@ -7,7 +7,7 @@
         <meta name="description" content="Este es un documento HTML5">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <link rel="stylesheet" href="css/index.css">
-        <script src="indexedb.js"></script>
+        <script src="js/indexedb.js"></script>
     </head>
     <body>
         <header id="cabeceralogo">
@@ -17,7 +17,6 @@
                 </a>
                 <h1>WallaVito06</h1>
                 <div>
-                    <!--<h2><a href="registrarse.html">Registrarse</a></h2>-->
                     <h3><a href="login.html" class="enlace">Iniciar sesión</a></h3>
                 </div>   
             </div>
@@ -27,7 +26,6 @@
                 <ul id="listamenu">
                     <li><a href="fotos.html">Todas las Categorías</a>
                         <ul>
-                            
                             <li><a href="familia.html">TV,Audio y Foto</a></li>
                             <li><a href="vacaciones.html">Consolas y Videojuegos</a></li>
                             <li><a href="vacaciones.html">Móviles y Telefonía</a></li>
@@ -46,20 +44,18 @@
                     <li><a href="contacto.html">Motor y Accesorios</a></li>
                     <li><a href="vacaciones.html">Moda y Accesorios</a></li>
                     <li><a href="vacaciones.html">Inmobiliaria</a></li>
-
                 </ul>
             </div>
         </nav>
         <main>
             <div>
-
     </body>
     <header>
-        <form class="formulario-busqueda" action="/buscar" method="get">
-            <label for="busqueda"></label>
-            <input type="text" id="busqueda" name="q" placeholder="Ingrese su búsqueda">
+        <form class="formulario-buscar" action="/buscar" method="get">
+            <label for="buscar"></label>
+            <input type="text" id="buscar" name="buscar" placeholder="Ingrese su búsqueda">
             <br>
-            <input type="submit" id="buscar-btn" value="Buscar">
+            <input type="submit" id="buscar" value="Buscar">
         </form>
     </header>
     <header id="pie">

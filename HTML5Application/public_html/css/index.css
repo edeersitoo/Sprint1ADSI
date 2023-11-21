@@ -9,12 +9,12 @@
 }
 #cabeceralogo {
     width: 96%;
-    height: 150px;
+    height: 165px;
     padding: 0% 2%;
     background-color: #13C1AC;
 }
 #cabeceralogo h1 {
-    font: bold 54px Arial, sans-serif;
+    font: bold 65px Arial, sans-serif;
     color: white;
     text-align: center;
 }
@@ -161,7 +161,7 @@ article time {
     color: #13C1AC;
 }
 /*Esto es para el cuadro de búsqueda*/
-.formulario-busqueda {
+.formulario-buscar {
     display: flex;
     flex-direction: row; /* Alinear los elementos en una fila */
     justify-content: center; /* Centrar horizontalmente */
@@ -175,19 +175,19 @@ article time {
     margin-top: 5px;
 }
 
-.formulario-busqueda label {
+.formulario-buscar label {
     font-size: 20px; /* Tamaño de la fuente del label */
     font: bold 20px Arial,sans-serif;
     margin-right: 10px; /* Agregar un margen entre el label y el campo de texto */
 }
 
-.formulario-busqueda input[type="text"] {
+.formulario-buscar input[type="text"] {
     font-size: 18px; /* Tamaño de la fuente del campo de texto */
     font-weight: bold; /* Negrita */
     margin-right: 10px; /* Agregar un margen entre el campo de texto y el botón */
 }
 
-.formulario-busqueda input[type="submit"] {
+.formulario-buscar input[type="submit"] {
     font-size: 16px; /* Tamaño de la fuente del botón */
     font-weight: bold; /* Negrita */
 }
