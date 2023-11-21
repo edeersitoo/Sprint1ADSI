@@ -134,7 +134,7 @@ article time {
     box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
     border-radius: 5px;
 }
-/*para subir producto una vez logueado*/
+/*boton subir producto una vez logueado*/
 #cabeceralogo div div h3 {
     position: absolute;
     right: 0;
@@ -142,7 +142,7 @@ article time {
 }
 #cabeceralogo div div h3 a {
     display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
-    margin-bottom: 10px; /* Espacio entre los enlaces */
+    margin-bottom: 5px; /* Espacio entre los enlaces */
     font: bold 16px Arial, sans-serif;
     color: white;
     text-decoration: none;
@@ -160,8 +160,6 @@ article time {
     background-color: white;
     color: #13C1AC;
 }
-
-
 /*Esto es para el cuadro de búsqueda*/
 .formulario-busqueda {
     display: flex;

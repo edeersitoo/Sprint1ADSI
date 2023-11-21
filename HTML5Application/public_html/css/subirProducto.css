@@ -15,6 +15,22 @@
     left: 0;
     text-align: left;
 }
+/*ponemos margenes para que quede más bonito*/
+#nombre{
+    margin-bottom:20px;
+}
+#categoria{
+    margin-bottom: 10px;
+}
+#precio{
+    margin-bottom: 20px;
+}
+#imagen{
+    margin-bottom: 10px;
+}
+#fecha{
+    margin-bottom:10px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -70,4 +86,7 @@ input[type="submit"]:hover {
 }
 #imagen{
     color: white;
+}
+#logo{
+    margin-top:20px;
 }
