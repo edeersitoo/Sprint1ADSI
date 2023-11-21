@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#cabeceralogo > div {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 45px;
+}
+#cabeceralogo {
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: #13C1AC;
+}
+#cabeceralogo h1 {
+    font: bold 54px Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+/*iniciar sesión quedan arriba a la derecha*/
+#cabeceralogo div div{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*fuente y tamaño para los botones registrarse e inicar sesion*/
+#cabeceralogo div div h3{
+    font: bold 20px arial, sans-serif;
+    color: white;
+}
+/*2 lineas horizontales verdes*/
+#menuprincipal {
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #FFFFFF;
+    border-top: 5px solid #13C1AC;
+    border-bottom: 5px solid #13C1AC;
+}
+#menuprincipal > div {
+    width: 960px;
+    margin: 0px auto;
+}
+#menuprincipal li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#menuprincipal li:hover {
+    background-color: #13C1AC;
+}
+#menuprincipal a {
+    font: bold 18px Arial, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*ponemos el foother abajo a la izquierda*/
+#pie{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
+/*quitamos la decoracion del enlace a iniciar sesion*/
+a{
+    text-decoration: none;
+}
+/*quitamos el color morado de cuando visitas el enlace*/
+a:visited{
+    color: white;
+}
+#articulosprincipales {
+    float: left;
+    width: 620px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+#infoadicional {
+    float: right;
+    width: 280px;
+    padding: 20px;
+    background-color: #E7F1F5;
+    border-radius: 10px;
+}
+
+#listamenu > li {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#listamenu li > ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+    background-color: #13C1AC;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 0px 0px 5px 5px;
+
+    list-style: none;
+    z-index: 1000;
+}
+#listamenu li > ul > li {
+    width: 120px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#listamenu li:hover ul {
+    display: block;
+}
+#listamenu a {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+#menuprincipal li:hover {
+    background-color: #13C1AC;
+}
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+}
+.enlace{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #13c1c3;
+    color: #ffffff; /* Color blanco para el texto */
+    background-color: #13C1AC;
+    border-radius: 5px; 
+    border-color: white;
+}
+.enlace:hover{
+    background-color: white;
+    color: #13C1AC;
+}

@@ -1,0 +1,59 @@
+#cabeceralogo form{
+    text-align: center;
+}
+#cabeceralogo div{
+    text-align: center;
+}
+#cabeceralogo h1{
+    color: white;
+    font: bold 65px Arial, sans-serif;
+}
+#password{
+    font: bold 15px arial, sans-serif;
+}
+#user{
+    font: bold 15px arial, sans-serif;
+}
+#pie{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+.botonPersonalizado{
+    width: 150px;
+    height: 50px;
+    font: bold 16px Arial, sans-serif;
+    border-radius: 10px;
+    background-color: white;
+}
+.botonPersonalizado:hover{
+    background-color: lightsteelblue;
+}
+body{
+    background-color: #13C1AC;
+}
+/*quitamos la decoracion del enlace a registrarse*/
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.enlace{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #13c1c3;
+    color: #ffffff; /* Color blanco para el texto */
+    background-color: #13C1AC;
+    border-radius: 5px;
+    border-color: white;
+}
+.enlace:hover{
+    background-color: white;
+    color: #13C1AC;
+}
+
